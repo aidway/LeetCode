@@ -13,7 +13,7 @@
 |20|[有效的括号](https://leetcode-cn.com/problems/valid-parentheses/)|[https://github.com/aidway/LeetCode/issues/4]|简单|模拟、栈
 |26|[删除排序数组中的重复项](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/)|[https://github.com/aidway/LeetCode/issues/12]|简单|模拟
 |80|[删除排序数组中的重复项 II](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array-ii/)|[https://github.com/aidway/LeetCode/issues/13]|中等|模拟
-|704|[二分查找](https://leetcode-cn.com/problems/binary-search/)|[https://github.com/aidway/LeetCode/issues/10]|简答|分治
+|704|[二分查找](https://leetcode-cn.com/problems/binary-search/)|[https://github.com/aidway/LeetCode/issues/10]|简单|分治
 |912|[排序数组](https://leetcode-cn.com/problems/sort-an-array/)|[https://github.com/aidway/LeetCode/issues/11]|中等|快速排序
 
 
