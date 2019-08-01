@@ -11,6 +11,7 @@
 |13|[罗马数字转整数](https://leetcode-cn.com/problems/roman-to-integer/)|[https://github.com/aidway/LeetCode/issues/8]|简单|模拟
 |14|[最长公共前缀](https://leetcode-cn.com/problems/longest-common-prefix/)|[https://github.com/aidway/LeetCode/issues/9]|简单|模拟
 |20|[有效的括号](https://leetcode-cn.com/problems/valid-parentheses/)|[https://github.com/aidway/LeetCode/issues/4]|简单|模拟、栈
+|21|[合并两个有序链表](https://leetcode-cn.com/problems/merge-two-sorted-lists/)|[https://github.com/aidway/LeetCode/issues/14]|简单|模拟、递归
 |26|[删除排序数组中的重复项](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/)|[https://github.com/aidway/LeetCode/issues/12]|简单|模拟
 |80|[删除排序数组中的重复项 II](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array-ii/)|[https://github.com/aidway/LeetCode/issues/13]|中等|模拟
 |704|[二分查找](https://leetcode-cn.com/problems/binary-search/)|[https://github.com/aidway/LeetCode/issues/10]|简单|分治
