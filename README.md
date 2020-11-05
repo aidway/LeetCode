@@ -12,6 +12,7 @@
 |8|[字符串转换整数 (atoi)](https://leetcode-cn.com/problems/string-to-integer-atoi/)|[https://github.com/aidway/LeetCode/issues/19]|中等|模拟
 |9|[回文数](https://leetcode-cn.com/problems/palindrome-number/)|[https://github.com/aidway/LeetCode/issues/7]|简单|模拟
 |11|[盛最多水的容器](https://leetcode-cn.com/problems/container-with-most-water/)|[https://github.com/aidway/LeetCode/issues/17]|中等|贪心|***
+|12|[整数转罗马数字](https://leetcode-cn.com/problems/integer-to-roman/)|[https://github.com/aidway/LeetCode/issues/20]|中等|模拟
 |13|[罗马数字转整数](https://leetcode-cn.com/problems/roman-to-integer/)|[https://github.com/aidway/LeetCode/issues/8]|简单|模拟
 |14|[最长公共前缀](https://leetcode-cn.com/problems/longest-common-prefix/)|[https://github.com/aidway/LeetCode/issues/9]|简单|模拟
 |20|[有效的括号](https://leetcode-cn.com/problems/valid-parentheses/)|[https://github.com/aidway/LeetCode/issues/4]|简单|模拟、栈
