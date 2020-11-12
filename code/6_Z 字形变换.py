@@ -1,5 +1,5 @@
 '''
-Ëã·¨£ºÄ£Äâ¡£
+ç®—æ³•ï¼šæ¨¡æ‹Ÿã€‚
 '''
 class Solution:
     def convert(self, s: str, numRows: int) -> str:
@@ -9,7 +9,7 @@ class Solution:
         k = 1
         p = 0
         while p < slen:
-            # ÏòÏÂ×ß
+            # å‘ä¸‹èµ°
             if k % 2 == 1:
                 j = 0
                 for i in range(numRows):
@@ -17,7 +17,7 @@ class Solution:
                         ans[i].append(s[p+i])
                         j = j + 1
                 p = p + j
-            # ÏòÉÏ×ß
+            # å‘ä¸Šèµ°
             else:
                 j = 0
                 for i in range(numRows - 2, 0, -1):

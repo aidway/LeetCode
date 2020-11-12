@@ -1,5 +1,5 @@
 '''
-Ëã·¨£º¶¯Ì¬¹æ»®¡£¶¨Òåmaps[i][j]±íÊ¾s[i:j]ÊÇ·ñÎª»ØÎÄ×Ö·û´®£¬Èç¹ûÎªÊÇÇÒs[i-1]µÈÓÚs[j+1]£¬ÄÇÃ´s[i-1:j+1]Ò²Îª»ØÎÄ×Ö·û´®¡£
+ç®—æ³•ï¼šåŠ¨æ€è§„åˆ’ã€‚å®šä¹‰maps[i][j]è¡¨ç¤ºs[i:j]æ˜¯å¦ä¸ºå›žæ–‡å­—ç¬¦ä¸²ï¼Œå¦‚æžœä¸ºæ˜¯ä¸”s[i-1]ç­‰äºŽs[j+1]ï¼Œé‚£ä¹ˆs[i-1:j+1]ä¹Ÿä¸ºå›žæ–‡å­—ç¬¦ä¸²ã€‚
 '''
 class Solution:
     def longestPalindrome(self, s: str) -> str:
@@ -9,13 +9,13 @@ class Solution:
         p = q = 0
         for i in range(slen):
             maps[i][i] = 1
-            # Èç¹ûÏàÁÚ×Ö·ûÒ»Ñù
+            # å¦‚æžœç›¸é‚»å­—ç¬¦ä¸€æ ·
             if i+1 < slen and s[i] == s[i+1]:
                 maps[i][i+1] = 1
                 p = i
                 q = i + 1
         
-        # Ã¶¾Ù×Ö·û´®³¤¶È
+        # æžšä¸¾å­—ç¬¦ä¸²é•¿åº¦
         for L in range(1,slen-1):
             for i in range(1, slen-L):
                 j = i + L
@@ -29,7 +29,7 @@ class Solution:
 
 
 '''
-Ëã·¨£ºÄ£Äâ
+ç®—æ³•ï¼šæ¨¡æ‹Ÿ
 '''
 class Solution:
     def longestPalindrome(self, s: str) -> str:

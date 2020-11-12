@@ -1,27 +1,27 @@
 class Solution:
     def twoSum(self, nums: List[int], target: int) -> List[int]:
         '''
-        Ëã·¨£ºÃ¶¾ÙÃ¿¸öÊı×Ö£¬ÓÃmaps±äÁ¿£¨×ÖµäÀàĞÍ£©¼ÇÂ¼Ã¿¸öÊı×ÖĞèÒªÄÄ¸öÊı×Ö¿ÉÒÔÍê³ÉÆ¥Åä
+        ç®—æ³•ï¼šæšä¸¾æ¯ä¸ªæ•°å­—ï¼Œç”¨mapså˜é‡ï¼ˆå­—å…¸ç±»å‹ï¼‰è®°å½•æ¯ä¸ªæ•°å­—éœ€è¦å“ªä¸ªæ•°å­—å¯ä»¥å®ŒæˆåŒ¹é…
         '''
         
         '''
         maps[key] = value
-        key:±»ĞèÒªµÄÊı×Ö
-        value:±»Ë­ĞèÒªµÄÊı×ÖµÄindex
-        Àı×Ó£º
+        key:è¢«éœ€è¦çš„æ•°å­—
+        value:è¢«è°éœ€è¦çš„æ•°å­—çš„index
+        ä¾‹å­ï¼š
         maps[2] = 1
-        Êı×Ö2±»nums[1]ĞèÒª£¬¼´ 2 + nums[1] = target
+        æ•°å­—2è¢«nums[1]éœ€è¦ï¼Œå³ 2 + nums[1] = target
         '''
         maps = {}
         ind = 0
         for n1 in nums:
             n2 = target - n1
             
-            # Èç¹ûn1±»ĞèÒª¹ı
+            # å¦‚æœn1è¢«éœ€è¦è¿‡
             if n1 in maps.keys() :
                 return [maps[n1],ind]
                 
-            # n2 ±» nums[ind]ĞèÒª
+            # n2 è¢« nums[ind]éœ€è¦
             maps[n2] = ind
             
             ind += 1

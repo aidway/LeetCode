@@ -1,19 +1,19 @@
 '''
-Ëã·¨£ºÄ£Äâ£¬¶þË¢
+ç®—æ³•ï¼šæ¨¡æ‹Ÿï¼ŒäºŒåˆ·
 '''
 class Solution:
     def myAtoi(self, s: str) -> int:
         INT_MAX = pow(2,31) - 1
         INT_MIN = pow(2, 31) * (-1)
 
-        # 1. È¥¿Õ¸ñ
+        # 1. åŽ»ç©ºæ ¼
         s = s.strip()
 
-        # 2. Îª¿Õ
+        # 2. ä¸ºç©º
         if s == "":
             return 0
 
-        # 3. ÅÐ¶Ï·ûºÅ
+        # 3. åˆ¤æ–­ç¬¦å·
         flag = 1
         if s[0] == '-':
             s = s[1:]
@@ -22,16 +22,16 @@ class Solution:
             flag = 1
             s = s[1:]
 
-        # 4. ÅÐ¶ÏÎª¿Õ
+        # 4. åˆ¤æ–­ä¸ºç©º
         if s == "":
             return 0
         
-        # 5. ÅÐ¶ÏÐÐÊ×ÊÇ·ñÎªÊý×Ö
+        # 5. åˆ¤æ–­è¡Œé¦–æ˜¯å¦ä¸ºæ•°å­—
         if not s[0].isdecimal():
             return 0
         
         
-        # 6. ×ª»»
+        # 6. è½¬æ¢
         slen = len(s)
         ans = ""
         for i in range(slen):
@@ -39,7 +39,7 @@ class Solution:
                 break
             ans = ans + s[i]
 
-        # 7. ·µ»Ø
+        # 7. è¿”å›ž
         ans_int = int(ans) * flag
         if ans_int > INT_MAX:
             return INT_MAX

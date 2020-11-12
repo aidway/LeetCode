@@ -13,8 +13,8 @@ class Solution:
             n2 = l2.val if l2 is not None else 0
 
             n3 = n1 + n2 + bit
-            val = n3 % 10        # µ±Ç°Î»µÄÊıÖµ
-            bit = int(n3 / 10)   # ½øÎ»
+            val = n3 % 10        # å½“å‰ä½çš„æ•°å€¼
+            bit = int(n3 / 10)   # è¿›ä½
 
             l_tmp = ListNode(val)
             l_tail.next = l_tmp
