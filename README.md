@@ -1,8 +1,8 @@
 Python for leetcode
 
-| id | Title | Solution | Difficulty | Class | degree
-|---| ----- | -------- | ---------- | ---------- | ---------- |
-|1|[两数之和](https://leetcode-cn.com/problems/two-sum/) | [https://github.com/aidway/LeetCode/issues/1]|简单|数学
+| 编号 | 名称  | 难度 | 类别 | 推荐
+|---| -----  | ---------- | ---------- | ---------- |
+|29|[两数相除](https://leetcode-cn.com/problems/divide-two-integers/)|中等|递归|***
 
 [^_^]:
     ||[]()|[https://github.com/aidway/LeetCode/issues/]|| 
