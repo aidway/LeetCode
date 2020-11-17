@@ -7,6 +7,8 @@ Python for leetcode
 |24|[两两交换链表中的节点](https://leetcode-cn.com/problems/swap-nodes-in-pairs/)|中等|链表|***
 |29|[两数相除](https://leetcode-cn.com/problems/divide-two-integers/)|中等|递归|***
 |30|[串联所有单词的子串](https://leetcode-cn.com/problems/substring-with-concatenation-of-all-words/)|困难|双指针|****
+|31|[下一个排列](https://leetcode-cn.com/problems/next-permutation/)|中等|贪心|***
+
 
 [^_^]:
     ||[]()|[https://github.com/aidway/LeetCode/issues/]|| 
