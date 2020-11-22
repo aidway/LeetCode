@@ -9,6 +9,7 @@ Python for leetcode
 |29|[两数相除](https://leetcode-cn.com/problems/divide-two-integers/)|中等|递归|***
 |30|[串联所有单词的子串](https://leetcode-cn.com/problems/substring-with-concatenation-of-all-words/)|困难|双指针|****
 |31|[下一个排列](https://leetcode-cn.com/problems/next-permutation/)|中等|贪心|***
+|39|[组合总和](https://leetcode-cn.com/problems/combination-sum/)|中等|回溯|****
 
 
 [^_^]:
