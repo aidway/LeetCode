@@ -13,6 +13,7 @@ Python for leetcode
 |37|[解数独](https://leetcode-cn.com/problems/sudoku-solver/)|困难|递归|*****
 |39|[组合总和](https://leetcode-cn.com/problems/combination-sum/)|中等|回溯|****
 |40|[组合总和2](https://leetcode-cn.com/problems/combination-sum-ii/)|中等|递归|****
+|141|[环形链表](https://leetcode-cn.com/problems/linked-list-cycle/)|简单|快慢指针|*
 
 
 
