@@ -15,6 +15,7 @@ Python for leetcode
 |40|[组合总和2](https://leetcode-cn.com/problems/combination-sum-ii/)|中等|递归|****
 |41|[缺失的第一个正数](https://leetcode-cn.com/problems/first-missing-positive/)|困难|哈希|****
 |46|[全排列](https://leetcode-cn.com/problems/permutations/)|中等|递归|***
+|47|[全排列2](https://leetcode-cn.com/problems/permutations-ii/)|中等|递归|***
 |48|[旋转图像](https://leetcode-cn.com/problems/rotate-image/)|简单|数学|****
 |49|[字母异位词分组](https://leetcode-cn.com/problemset/all/)|中等|字典哈希|***
 |141|[环形链表](https://leetcode-cn.com/problems/linked-list-cycle/)|简单|快慢指针|*
