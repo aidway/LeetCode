@@ -27,6 +27,7 @@ Python for leetcode
 |56|[合并区间](https://leetcode-cn.com/problems/merge-intervals/)|中等|模拟|***
 |57|[插入区间](https://leetcode-cn.com/problems/insert-interval/)|困难|模拟|***
 |60|[排列序列](https://leetcode-cn.com/problems/permutation-sequence/)|困难|模拟|***
+|77|[组合](https://leetcode-cn.com/problems/combinations/)|中等|递归|****
 |141|[环形链表](https://leetcode-cn.com/problems/linked-list-cycle/)|简单|快慢指针|*
 
  
