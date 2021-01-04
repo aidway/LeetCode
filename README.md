@@ -29,6 +29,7 @@ Python for leetcode
 |60|[排列序列](https://leetcode-cn.com/problems/permutation-sequence/)|困难|模拟|***
 |77|[组合](https://leetcode-cn.com/problems/combinations/)|中等|递归|****
 |78|[子集](https://leetcode-cn.com/problems/subsets/)|中等|递归|****
+|79|[单次搜索](https://leetcode-cn.com/problems/word-search/)|中等|递归|****
 |141|[环形链表](https://leetcode-cn.com/problems/linked-list-cycle/)|简单|快慢指针|*
 
  
